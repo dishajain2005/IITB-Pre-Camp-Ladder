@@ -8,7 +8,7 @@ const app = express();
 
 // MongoDB connection
 let db;
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/iitb-ladder";
+const MONGODB_URI = process.env.MONGODB_URI || "mongodb+srv://Aryansh:Aryansh%401234@main.rnf5aoj.mongodb.net/iitb-ladder?retryWrites=true&w=majority&appName=Main";
 
 // Connect to MongoDB
 MongoClient.connect(MONGODB_URI)
